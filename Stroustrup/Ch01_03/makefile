@@ -25,5 +25,8 @@ unsafe_conversion:
 universal_init:
 	g++ -Wall -o universal_init universal_init.cpp -std=c++14
 
+operands:
+		g++ -Wall -o operands operands.cpp -std=c++14
+
 clean:
 	rm -f a.out test types input detect detect2
